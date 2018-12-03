@@ -2,7 +2,7 @@
     "name": "seniorid/cre",
     "description": "Esta clase permite descargar los precios de las gasolinas de todo Mexico y mostarlos en  formato array.",
     "keywords": ["precio gasolinas", "mexico"],
-    "license": "DBAD",
+    "license": "MIT",
     "authors": [
         {
             "name": "Senior ID",
