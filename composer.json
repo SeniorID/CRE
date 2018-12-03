@@ -1,0 +1,26 @@
+{
+    "name": "seniorid/cre",
+    "description": "Esta clase permite descargar los precios de las gasolinas de todo Mexico y mostarlos en  formato array.",
+    "keywords": ["precio gasolinas", "mexico"],
+    "license": "DBAD",
+    "authors": [
+        {
+            "name": "Senior ID",
+            "email": "issac.degollado@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=7.1",
+        "guzzlehttp/guzzle": "^6.3",
+        "laravie/parser": "^2.0"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "SeniorID\\CRE\\": "src/"
+        }
+    }
+}
