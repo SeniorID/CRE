@@ -73,7 +73,7 @@ class CREManager {
 
     $places = $xml->parse([
 
-        'places' => ['uses' => 'place[::place_id>place_id,name,brand,cre_id,category,location.address_street>location,location.x>lat,location.y>lng]']
+        'places' => ['uses' => 'place[::place_id>place_id,name,brand,cre_id,category,location.address_street>location,location.x>lng,location.y>lat]']
 
     ]);
 
